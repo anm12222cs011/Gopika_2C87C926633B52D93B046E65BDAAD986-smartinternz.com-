@@ -21,7 +21,7 @@ class BankAccount:
     def display_balance(self):
         print(f"Account Balance for {self.__account_holder_name} (Account #{self.__account_number}): ₹{self.__account_balance}")
 
-account = BankAccount("1546845", "kishore", 10000.00)
+account = BankAccount("1546845", "Gopika", 10000.00)
 account.display_balance()
 account.deposit(700.00)
 account.withdraw(500.00)
